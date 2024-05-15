@@ -137,17 +137,17 @@
     <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">1 / 3</div>
           <img src="https://english-blog.s3.amazonaws.com/uploads/2023/06/Pediatric-Cardiology-Hospitals.jpg" style="width:100%" alt="">
         </div>
       
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">2 / 3</div>
           <img src="https://www.inhousemedicare.com/wp-content/uploads/2022/06/Doctor-consultation.png" style="width:100%">
         </div>
       
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">3 / 3</div>
           <img src="https://thumbs.dreamstime.com/b/newborn-baby-family-concept-parents-couple-holding-new-born-child-hands-mother-father-hold-infant-kid-114849304.jpg" style="width:100%">
         </div>
@@ -226,9 +226,8 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
-    let slideIndex = 1;
+   let slideIndex = 1;
 showSlides(slideIndex);
-
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -253,5 +252,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
 </script>
 </html>
